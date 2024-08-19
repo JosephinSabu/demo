@@ -1,0 +1,15 @@
+a="msi is a gaming laptop"
+print(a)
+print(type(a))
+print(len(a))
+print("is" in a)
+print("was" not in a)
+for i in a:
+    print(i)
+print(a[1])
+print(a[3])
+print(a[2:9])
+print(a[-8:-2])
+print(a[2:])
+print(y.upper())
+print)

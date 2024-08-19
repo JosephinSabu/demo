@@ -1,0 +1,33 @@
+a="hello"
+print(a)
+print(type(a))
+print(len(a))
+y="python is a programming language"
+print(y)
+print(len(y))
+print("is" in y)
+print("that" in y)
+print("is" not in y)
+for i in y:
+    print(i)
+print(y[1])
+print(y[2])
+print(y[2:10])
+print(y[2:])
+print(y[:24])
+print(y[-1])
+print(y[-10:-3])
+print(y[-2:])
+print(y[:-4])
+print(y.upper())
+print(y.lower())
+z=" this is, a, comment"
+print(z)
+print(z.strip())
+print(z.replace("is","was"))
+print(z.split(","))
+print(z+y)
+a=5
+#print(a+z)
+print(f"i am {a} years old")
+print(y.count("a"))
