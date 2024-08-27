@@ -1,0 +1,37 @@
+colour=["red","blue","pink"]
+fruits=["apple","strawberry","orange"]
+print(type(colour))
+print(type(fruits))
+print("red" in colour)
+print("red" not in colour)
+colour[1]="yellow"
+print(colour)
+colour.append("blue")
+print(colour)
+colour.insert(1,"black")
+print(colour)
+colour.extend(fruits)
+print(colour)
+colour.remove("yellow")
+print(colour)
+colour.pop(1)
+print(colour)
+del colour[2]
+print(colour)
+x=colour.copy()
+print(x)
+x.sort()
+print(x)
+x.sort(reverse=True)
+print(x)
+y=x.copy()
+print(y)
+z=list(y)
+print(z)
+k=y+z
+print(k)
+print(k.count("red"))
+k.clear()
+print(k)
+del k
+print(k) 
